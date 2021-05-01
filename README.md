@@ -1,7 +1,5 @@
 # typescript-maps
 
-r
-a
-n
-o
-d
+## General
+
+A map generateed by random user and company data using typescript and parcel-bundler
