@@ -17,4 +17,12 @@ export class Company {
         };
     }
 
+    markerContent(): string {
+        return `
+        <div> 
+        <h2>Company Name: ${this.companyName}</h2>
+        <h3>Catchphrase: ${this.catchPrhase}</h3>
+        </div>
+        `
+    }
 }

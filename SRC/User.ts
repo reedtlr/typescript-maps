@@ -7,13 +7,16 @@ export class User {
         lon: number;
     };
 
-constructor() {
-    this.name = faker.name.firstName();
-    this.location = {
-        lat: parseFloat(faker.address.latitude()), 
-        lon: parseFloat(faker.address.longitude())
-    }   
-}
+    constructor() {
+        this.name = faker.name.firstName();
+        this.location = {
+            lat: parseFloat(faker.address.latitude()), 
+            lon: parseFloat(faker.address.longitude())
+        }   
+    };
 
+    markerContent(): string {
+        return `User Name: ${this.name}`
+    };
 }
 
