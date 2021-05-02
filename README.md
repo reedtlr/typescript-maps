@@ -10,7 +10,7 @@ A map generateed by random user and company data using typescript and parcel-bun
 
 ## General info
 
-This application illustrates how Google Maps API can be integrated into a project relatively easily with TypeScript. Faker was used to generate a user and a company. Methods include Markers and InfoWindow.
+This application illustrates how Google Maps API can be integrated into a project relatively easily with TypeScript. Faker was used to generate a user and a company. Methods include Marker and InfoWindow.
 
 ## Technologies
 
