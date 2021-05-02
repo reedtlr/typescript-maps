@@ -32,4 +32,4 @@ To start the application
 
 ` parcel index.html`
 
-![Image1 PNG](./public/images/image1.png)
+![Image1 PNG](./Public/images/image1.png)
